@@ -112,7 +112,7 @@ export const CONTACT = {
   email: 'jhaanit.php@gmail.com',
   social: {
     github: 'https://github.com/Anit-jha88',
-    linkedin: 'www.linkedin.com/in/anit-jha-06886280',
+    linkedin: 'https//linkedin.com/in/anit-jha-06886280',
     twitter: 'https://twitter.com/anitjha',
   }
 };
