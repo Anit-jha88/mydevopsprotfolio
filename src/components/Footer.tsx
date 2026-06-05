@@ -73,10 +73,8 @@ export const Footer = () => {
           <div className="flex items-center space-x-4 text-xs font-mono text-neutral-500">
             <span>Powered by:</span>
             <div className="flex items-center space-x-2">
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">React</span>
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">TypeScript</span>
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">Tailwind</span>
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">Three.js</span>
+              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">@clouddevopslabs.in</span>
+             
             </div>
           </div>
         </div>

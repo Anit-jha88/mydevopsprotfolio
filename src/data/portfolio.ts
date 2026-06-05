@@ -1,6 +1,6 @@
-export const HERO_CONTENT = "Building scalable systems from code to cloud. DevOps & Cloud Engineer | Full-Stack Developer. Passionate about automating deployments, optimizing cloud infrastructure, and developing robust web applications with modern technologies.";
+export const HERO_CONTENT = "Building scalable, secure, and high-performance applications from code to cloud. Experienced in automating CI/CD pipelines, containerization with Docker, cloud infrastructure management on AWS, and developing robust web applications using  modern technologies.";
 
-export const ABOUT_TEXT = "I design, automate, and deploy systems that turn code into production-grade reality. My journey began with full-stack development—building web apps with Java, React, and Node.js. Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, where I now focus on crafting scalable infrastructure, clean CI/CD pipelines, and resilient deployments. I work across AWS and OCI, orchestrate containers with Docker and Kubernetes, and define infrastructure with Terraform, Ansible, and CloudFormation. Behind the command line, I'm equally comfortable in version control and workflow automation, using Git, GitHub, GitLab CI/CD, CodePipeline, and Bash scripting to bridge collaboration and delivery. For me, DevOps isn't just about speed—it's about precision, repeatability, and creating systems that empower developers to ship confidently and innovate faster.";
+export const ABOUT_TEXT = "I design, automate, and deploy systems that turn code into production-grade reality. My journey began with full-stack development—building web apps with Php , React, and Node.js. Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, where I now focus on crafting scalable infrastructure, clean CI/CD pipelines, and resilient deployments. I work across AWS and OCI, orchestrate containers with Docker and Kubernetes, and define infrastructure with Terraform, Ansible, and CloudFormation. Behind the command line, I'm equally comfortable in version control and workflow automation, using Git, GitHub, GitLab CI/CD, CodePipeline, and Bash scripting to bridge collaboration and delivery. For me, DevOps isn't just about speed—it's about precision, repeatability, and creating systems that empower developers to ship confidently and innovate faster.";
 
 export const SKILLS = [
   // Cloud
@@ -107,13 +107,13 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: 'Hyderabad, Telangana, India',
-  phoneNo: '+91 **********',
-  email: 'neerajnakka.n@gmail.com',
+  address: 'Bengaluru, karnataka, India',
+  phoneNo: '+91 8240759287',
+  email: 'jhaanit.php@gmail.com',
   social: {
-    github: 'https://github.com/neerajnakka',
-    linkedin: 'https://linkedin.com/in/neerajchandran',
-    twitter: 'https://twitter.com/neerajnakka',
+    github: 'https://github.com/Anit-jha88',
+    linkedin: 'www.linkedin.com/in/anit-jha-06886280',
+    twitter: 'https://twitter.com/anitjha',
   }
 };
 

@@ -13,10 +13,10 @@ export const About = () => {
         'Working on freelance projects focusing on cloud automation, CI/CD, and container orchestration using AWS, Docker, and Kubernetes.',
       icon: Code,},
     {
-      year: '2019 - 2023',
-      title: 'Computer Science Graduate',
-      company: 'CVR College Of Engineering',
-      description: 'Bachelor\'s degree with focus on software engineering and cloud computing.',
+      year: '2013 - 2023',
+      title: 'Software Developer',
+      company: 'Having worked with multiple organizations',
+      description: 'Sr full-stack developer where I handled WordPress,CodeIgniter, and Laravel projects. I developed custom websites, built APIs,converted designs into responsive layouts, and also deployed projects on server.',
       icon: Calendar,
     },
   ];
@@ -67,13 +67,13 @@ export const About = () => {
                 </div>
                 <div className="space-y-4 text-neutral-200 leading-relaxed">
                   <Typewriter
-                    text="Hello, I'm Neeraj Chandra Nakka, and I turn code into production reality."
+                    text="Hello, I'm Anit Kumar Jha, and I turn code into production reality."
                     delay={30}
                     className="text-primary-500 font-semibold block mb-4"
                   />
                   <p>
                     I design, automate, and deploy systems that turn code into production-grade reality. 
-                    My journey began with full-stack development—building web apps with Java, React, and Node.js.
+                    My journey began with full-stack development—building web apps with Php, React, and Node.js.
                   </p>
                   <p>
                     Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, 
@@ -108,7 +108,7 @@ export const About = () => {
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Experience</span>
-                    <span className="text-primary-500 font-mono">1+ years</span>
+                    <span className="text-primary-500 font-mono">2+ years</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Cloud Platforms</span>
