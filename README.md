@@ -308,11 +308,7 @@ This portfolio is designed for DevOps engineers who want something that looks li
 
 ## 🔗 Links
 
-- **Live Site**: [neeraj-devops.vercel.app](https://neeraj-devops.vercel.app)
-- **GitHub**: [github.com/neerajnakka](https://github.com/neerajnakka)
-- **LinkedIn**: [linkedin.com/in/neerajchandran](https://linkedin.com/in/neerajchandran)
 
----
 
 <p align="center">
   <b>If this template helped you land a job or get noticed, drop a ⭐ — it helps other DevOps engineers find it.</b><br/>
