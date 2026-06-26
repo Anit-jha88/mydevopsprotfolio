@@ -72,8 +72,7 @@ export const About = () => {
                     className="text-primary-500 font-semibold block mb-4"
                   />
                   <p>
-                    I design, automate, and deploy systems that turn code into production-grade reality. 
-                    My journey began with full-stack development—building web apps with Php, React, and Node.js.
+                    I design, automate, and deploy systems that turn code into production-grade reality. My journey began with full-stack development, building modern and scalable applications using Node.js, Laravel, WordPress, React.js and PHP. This foundation led me to explore cloud technologies, DevOps, and infrastructure automation, helping teams deliver software faster and more reliably.
                   </p>
                   <p>
                     Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, 
@@ -108,7 +107,7 @@ export const About = () => {
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Experience</span>
-                    <span className="text-primary-500 font-mono">2+ years</span>
+                    <span className="text-primary-500 font-mono">3+ years</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Cloud Platforms</span>

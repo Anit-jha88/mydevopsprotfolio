@@ -5,7 +5,7 @@ export const ABOUT_TEXT = "I design, automate, and deploy systems that turn code
 export const SKILLS = [
   // Cloud
   { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloud', level: 90 },
-  { name: 'OCI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg', category: 'cloud', level: 90 },
+  { name: 'Azore', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg', category: 'cloud', level: 90 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 90 },
@@ -27,12 +27,14 @@ export const SKILLS = [
   { name: 'Bash Scripting', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg', category: 'devops', level: 90 },
 
   // Development
-  { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', category: 'development', level: 90 },
-  { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg', category: 'development', level: 90 },
+  
+  
   { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg', category: 'development', level: 90 },
+  { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg', category: 'development', level: 90 },
   { name: 'React.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', category: 'development', level: 90 },
-  { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg', category: 'development', level: 90 },
-  { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg', category: 'development', level: 90 },
+  { name: 'HTML/Css', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg', category: 'development', level: 90 },
+  { name: 'Wordpress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg', category: 'development', level: 90 },
+  { name: 'laravel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg', category: 'development', level: 90 },
 
   // Databases
   { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', category: 'database', level: 90 },
@@ -47,7 +49,16 @@ export const PROJECTS = [
     description: 'Deployed a production-grade Amazon Clone on AWS EKS with full GitOps automation via ArgoCD. Integrated CI/CD pipelines using GitHub Actions, containerized microservices with Docker, and managed configuration using Kustomize for seamless auto-sync deployments.',
     technologies: ['AWS EKS', 'Kubernetes', 'ArgoCD', 'GitHub Actions', 'Kustomize', 'Docker', 'Terraform'],
     category: 'devops',
-    githubLink: 'https://github.com/neerajnakka/amazon-clone-k8s-eks-argoCD',
+    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
+    websiteLink: '',
+  },
+    {
+    title: 'Cloud Cost Optimization',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Deployed a production-grade Amazon Clone on AWS EKS with full GitOps automation via ArgoCD. Integrated CI/CD pipelines using GitHub Actions, containerized microservices with Docker, and managed configuration using Kustomize for seamless auto-sync deployments.',
+    technologies: ['AWS EKS', 'Aws'],
+    category: 'aws',
+    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
     websiteLink: '',
   },
   {
@@ -56,7 +67,7 @@ export const PROJECTS = [
     description: 'Developed and containerized a Next.js application, deploying it to Kubernetes clusters using GitHub Actions for automated CI/CD. Implemented multi-stage Docker builds, health probes, resource limits, and rolling updates for high availability.',
     technologies: ['Next.js', 'Docker', 'Kubernetes', 'GitHub Actions', 'GHCR'],
     category: 'devops',
-    githubLink: 'https://github.com/neerajnakka/nextjs-docker-kubernetes-app',
+    githubLink: 'https://github.com/Anit-jha88/nextjs-docker-kubernetes-app',
     websiteLink: '',
   },
   {
@@ -65,7 +76,7 @@ export const PROJECTS = [
     description: 'Developed a real-time chat application using the MERN stack with Socket.IO for instant communication. Implemented custom hooks and Zustand for efficient state management. Dockerized for deployment.',
     technologies: ['React', 'Node', 'Express', 'MongoDB', 'Socket.IO', 'Zustand', 'Docker'],
     category: 'fullstack',
-    githubLink: 'https://github.com/neerajnakka/Mern_ChatApp',
+    githubLink: 'https://github.com/Anit-jha88/Mern_ChatApp',
     websiteLink: 'https://mern-chatapp-rfj5.onrender.com/',
   },
   {
@@ -78,13 +89,13 @@ export const PROJECTS = [
     websiteLink: '',
   },
   {
-    title: 'Netflix Clone using React',
-    image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    description: 'Built a Netflix clone with React, Tailwind CSS, and Firebase. Integrated React Router for seamless navigation and Firebase for authentication.',
-    technologies: ['React', 'Tailwind CSS', 'Firebase'],
+    title: 'Airport Transfer Amsterdam',
+    image: 'https://clouddevopslabs.in/assets/p1.png',
+    description: 'Developed  a taxi booking platform using Google Maps API, enabling users to search pickup and drop-off locations, calculate real-time distances, estimate fares dynamically, and complete online taxi reservations. Utilized PHP, WordPress, JavaScript, and MySQL to build and maintain the application.',
+    technologies: ['Wordpress', 'Mysql', 'google Map','javascript'],
     category: 'fullstack',
-    githubLink: 'https://github.com/neerajnakka/NetflixReact_Clone',
-    websiteLink: 'https://netflix-clone-wi5g.onrender.com/',
+    githubLink: 'https://github.com/Anit-jha88/Airporttransfer',
+    websiteLink: 'https://www.airporttransfer.amsterdam/',
   },
   {
     title: 'Modern Portfolio with 3D Animations',
@@ -92,7 +103,7 @@ export const PROJECTS = [
     description: 'Designed and developed a modern portfolio website featuring smooth animations, 3D effects powered by Three.js, and a sleek user interface. Leveraged Tailwind CSS for responsive design, React for dynamic interactivity, and Zustand for state management. The site incorporates Framer Motion for fluid transitions.',
     technologies: ['React', 'Three.js', 'Tailwind CSS', 'Framer Motion', 'Zustand', 'HTML', 'CSS'],
     category: 'fullstack',
-    githubLink: 'https://github.com/neerajnakka/Neeraj_Portfolio',
+    githubLink: 'https://github.com/Anit-jha88/Neeraj_Portfolio',
     websiteLink: 'https://neerajnakka.onrender.com/',
   },
   {
@@ -101,7 +112,7 @@ export const PROJECTS = [
     description: 'Dynamic React portfolio showcasing projects with Tailwind CSS design and Framer Motion animations.',
     technologies: ['Tailwind CSS', 'React.js', 'React Router Dom', 'Framer Motion'],
     category: 'fullstack',
-    githubLink: 'https://github.com/neerajnakka/PortFolio_React/tree/master',
+    githubLink: 'https://github.com/Anit-jha88/PortFolio_React/tree/master',
     websiteLink: 'https://neerajchandra.onrender.com/',
   },
 ];
@@ -112,7 +123,7 @@ export const CONTACT = {
   email: 'jhaanit.php@gmail.com',
   social: {
     github: 'https://github.com/Anit-jha88',
-    linkedin: 'https//linkedin.com/in/anit-jha-06886280',
+    linkedin: 'https://linkedin.com/in/anit-jha-06886280',
     twitter: 'https://twitter.com/anitjha',
   }
 };
@@ -129,5 +140,6 @@ export const SKILLS_BY_CATEGORY = {
 export const PROJECTS_BY_CATEGORY = {
   all: PROJECTS,
   devops: PROJECTS.filter(project => project.category === 'devops'),
+  aws: PROJECTS.filter(project => project.category === 'aws'),
   fullstack: PROJECTS.filter(project => project.category === 'fullstack'),
 };

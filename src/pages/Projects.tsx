@@ -9,6 +9,7 @@ export const Projects = () => {
 
   const filters = [
     { id: 'all', label: 'All Projects', count: PROJECTS_BY_CATEGORY.all.length },
+    { id: 'aws', label: 'AWS', count: PROJECTS_BY_CATEGORY.aws.length },
     { id: 'devops', label: 'DevOps', count: PROJECTS_BY_CATEGORY.devops.length },
     { id: 'fullstack', label: 'Full-Stack', count: PROJECTS_BY_CATEGORY.fullstack.length },
   ];
@@ -86,10 +87,16 @@ export const Projects = () => {
                   <div className="absolute top-4 right-4">
                     <span className={`px-3 py-1 rounded-full text-xs font-mono font-medium ${
                       project.category === 'devops' 
-                        ? 'bg-green-500/20 text-green-500 border border-green-500/30'
-                        : 'bg-blue-500/20 text-blue-500 border border-blue-500/30'
+                        ? 'bg-black text-green-500 border border-green-500/30 px-4 py-2 rounded-lg'
+                        : 'bg-black text-blue-500 border border-blue-500/30 px-4 py-2 rounded-lg'
                     }`}>
-                      {project.category === 'devops' ? 'DevOps' : 'Full-Stack'}
+                      {
+                      project.category === 'devops'
+                        ? 'DevOps'
+                        : project.category === 'aws'
+                          ? 'AWS'
+                          : 'Full-Stack'
+                          }
                     </span>
                   </div>
                 </div>
@@ -102,7 +109,7 @@ export const Projects = () => {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-neutral-200 text-sm leading-relaxed line-clamp-3">
+                  <p className="text-neutral-200 text-sm leading-relaxed line-clamp-5">
                     {project.description}
                   </p>
 
@@ -232,7 +239,7 @@ export const Projects = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://github.com/neerajnakka"
+                href="https://github.com/Anit-jha88"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-bg-surface font-semibold rounded-lg hover:bg-primary-700 transition-all duration-200 shadow-glow hover:shadow-card-hover"

@@ -45,6 +45,8 @@ export const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    console.log(import.meta.env.VITE_WEB3FORMS_KEY);
     
     if (!validateForm()) {
       return;
