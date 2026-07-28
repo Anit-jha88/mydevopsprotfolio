@@ -27,11 +27,13 @@ export const Navbar = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2 group">
               <div className="text-primary-500 font-mono font-bold text-xl tracking-wide">
-                <span className="text-accent-500">&gt;</span>
-                <span className="group-hover:text-primary-500 transition-colors duration-200">
-                  _
-                </span>
+               <img
+                  src="https://clouddevopslabs.in/assets/logo.png"
+                  alt="CloudDevOpsLabs"
+                  className="h-14 w-58 object-contain"
+                />
               </div>
+              <span className="text-accent-500">&gt;</span> <span className="group-hover:text-primary-500 transition-colors duration-200"> _ </span>
             </Link>
 
             {/* Desktop Navigation */}

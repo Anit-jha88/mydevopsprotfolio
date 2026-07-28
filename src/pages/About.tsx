@@ -7,16 +7,16 @@ export const About = () => {
   const timeline = [
     {
       year: '2023 - Present',
-      title: 'Freelance DevOps & Cloud Engineer',
+      title: 'DevOps & Cloud Engineer',
       company: 'Self-Employed',
       description:
-        'Working on freelance projects focusing on cloud automation, CI/CD, and container orchestration using AWS, Docker, and Kubernetes.',
+        'Working on  DevOps & Cloud  projects involving AWS cloud deployments, Docker containerization, Kubernetes orchestration, CI/CD pipeline automation with Jenkins and GitHub Actions, Infrastructure as Code (Terraform), and Linux server administration.',
       icon: Code,},
     {
       year: '2013 - 2023',
       title: 'Software Developer',
       company: 'Having worked with multiple organizations',
-      description: 'Sr full-stack developer where I handled WordPress,CodeIgniter, and Laravel projects. I developed custom websites, built APIs,converted designs into responsive layouts, and also deployed projects on server.',
+      description: 'Senior Full-Stack Developer with hands-on experience delivering web applications using Node js, React js, Laravel, CodeIgniter, and WordPress. Developed custom websites and web applications, designed and integrated RESTful APIs. Collaborated with cross-functional teams to deliver scalable, secure, and high-performance solutions.',
       icon: Calendar,
     },
   ];
@@ -115,7 +115,7 @@ export const About = () => {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Projects</span>
-                    <span className="text-primary-500 font-mono">7+ deployed</span>
+                    <span className="text-primary-500 font-mono">12+ deployed</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Technologies</span>

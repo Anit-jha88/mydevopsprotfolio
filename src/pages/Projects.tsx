@@ -87,8 +87,10 @@ export const Projects = () => {
                   <div className="absolute top-4 right-4">
                     <span className={`px-3 py-1 rounded-full text-xs font-mono font-medium ${
                       project.category === 'devops' 
-                        ? 'bg-black text-green-500 border border-green-500/30 px-4 py-2 rounded-lg'
-                        : 'bg-black text-blue-500 border border-blue-500/30 px-4 py-2 rounded-lg'
+                      ? 'bg-black text-green-500 border border-green-500/30 px-4 py-2 rounded-lg'
+                      : project.category === 'aws'
+                      ? 'bg-black text-purple-500 border border-yellow-500/30 px-4 py-2 rounded-lg'
+                      : 'bg-black text-blue-500 border border-blue-500/30 px-4 py-2 rounded-lg'
                     }`}>
                       {
                       project.category === 'devops'
@@ -131,7 +133,7 @@ export const Projects = () => {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex items-center space-x-4 pt-4">
+                  <div className="flex items-center justify-between w-full pt-4">
                     <a
                       href={project.githubLink}
                       target="_blank"

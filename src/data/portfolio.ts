@@ -32,7 +32,7 @@ export const SKILLS = [
   { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg', category: 'development', level: 90 },
   { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg', category: 'development', level: 90 },
   { name: 'React.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', category: 'development', level: 90 },
-  { name: 'HTML/Css', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg', category: 'development', level: 90 },
+  { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg', category: 'development', level: 90 },
   { name: 'Wordpress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg', category: 'development', level: 90 },
   { name: 'laravel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg', category: 'development', level: 90 },
 
@@ -43,7 +43,18 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = [
-  {
+ 
+   {
+    title: 'AI Inventory Tracker on AWS',
+    image: 'https://clouddevopslabs.in/assets/p9.png',
+    description: 'Deployed an AI Inventory Tracker on AWS using Amazon SageMaker, AWS Lambda, DynamoDB, API Gateway, and SNS to automate inventory monitoring, AI-based demand forecasting, intelligent stock recommendations, and real-time alerts.',
+    technologies: ['API Gateway', 'SageMaker', 'DynamoDB', 'AWS Lambda'],
+    category: 'aws',
+    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
+    websiteLink: '',
+  },
+
+   {
     title: 'Amazon Clone — EKS & ArgoCD Deployment',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     description: 'Deployed a production-grade Amazon Clone on AWS EKS with full GitOps automation via ArgoCD. Integrated CI/CD pipelines using GitHub Actions, containerized microservices with Docker, and managed configuration using Kustomize for seamless auto-sync deployments.',
@@ -52,15 +63,52 @@ export const PROJECTS = [
     githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
     websiteLink: '',
   },
+  {
+    title: 'Portfolio Website',
+    image: 'https://clouddevopslabs.in/assets/p3.png',
+    description: 'Developed a modern and responsive portfolio website using React.js, Tailwind CSS, and Framer Motion. Showcases projects, skills, and case studies with smooth animations, interactive UI components, and optimized performance across all devices.',
+    technologies: ['Tailwind CSS', 'React.js', 'React Router Dom', 'Framer Motion'],
+    category: 'fullstack',
+    githubLink: 'https://github.com/Anit-jha88/mydevopsprotfolio',
+    websiteLink: 'https://clouddevopslabs.in/',
+  },
     {
-    title: 'Cloud Cost Optimization',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    description: 'Deployed a production-grade Amazon Clone on AWS EKS with full GitOps automation via ArgoCD. Integrated CI/CD pipelines using GitHub Actions, containerized microservices with Docker, and managed configuration using Kustomize for seamless auto-sync deployments.',
-    technologies: ['AWS EKS', 'Aws'],
+    title: 'The Cloud Cost Caluclator',
+    image: 'https://clouddevopslabs.in/assets/p7.png',
+    description: 'Designed and implemented an AWS Cloud Cost Tracking & Alert System using AWS Lambda, Cost Explorer API, EventBridge, DynamoDB, SNS, and CloudWatch. Automated daily cost collection, generated budget alerts through email notifications, provided service-wise cost analytics, and built a dashboard for monitoring monthly AWS spending.',
+    technologies: ['AWS EKS', 'CloudWatch', 'EventBridge', 'AWS Lambda'],
     category: 'aws',
     githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
     websiteLink: '',
   },
+   {
+    title: 'Automatic Backup System',
+    image: 'https://clouddevopslabs.in/assets/p5.png',
+    description: 'Automatic Backup System on AWS to securely back up EC2 instances, EBS volumes, and RDS databases using AWS Backup, Monitored backup jobs with Amazon CloudWatch and configured SNS notifications for backup.',
+    technologies: ['AWS EKS', 'CloudWatch', 'EC2', 'AWS Lambda'],
+    category: 'aws',
+    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
+    websiteLink: '',
+  },
+  {
+    title: 'WebApp Uptime Monitor',
+    image: 'https://clouddevopslabs.in/assets/p6.png',
+    description: 'Designed and deployed an AWS-based WebApp Uptime Monitoring solution using CloudWatch, Route 53, SNS, and Lambda to provide 24/7 availability monitoring, real-time alerts, and performance tracking for web applications.',
+    technologies: ['AWS Route 53', 'CloudWatch', 'EC2', 'IAM'],
+    category: 'aws',
+    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
+    websiteLink: '',
+  },
+  {
+    title: 'Customer Inquiries Manager on AWS',
+    image: 'https://clouddevopslabs.in/assets/p8.png',
+    description: 'Implemented a serverless Customer Inquiries Manager on AWS using API Gateway, Lambda, DynamoDB, S3, SNS, and Cognito to automate customer inquiry processing, real-time notifications, secure data management, and operational monitoring.',
+    technologies: ['Cognito', 'DynamoDB', 'S3', 'AWS Lambda'],
+    category: 'aws',
+    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
+    websiteLink: '',
+  },
+ 
   {
     title: 'Next.js CI/CD Pipeline with Docker & Kubernetes',
     image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
@@ -70,15 +118,11 @@ export const PROJECTS = [
     githubLink: 'https://github.com/Anit-jha88/nextjs-docker-kubernetes-app',
     websiteLink: '',
   },
-  {
-    title: 'Realtime Chat App — MERN + Socket.IO',
-    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    description: 'Developed a real-time chat application using the MERN stack with Socket.IO for instant communication. Implemented custom hooks and Zustand for efficient state management. Dockerized for deployment.',
-    technologies: ['React', 'Node', 'Express', 'MongoDB', 'Socket.IO', 'Zustand', 'Docker'],
-    category: 'fullstack',
-    githubLink: 'https://github.com/Anit-jha88/Mern_ChatApp',
-    websiteLink: 'https://mern-chatapp-rfj5.onrender.com/',
-  },
+
+  
+
+
+ 
   {
     title: 'Cloud Infrastructure Automation',
     image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
@@ -98,23 +142,25 @@ export const PROJECTS = [
     websiteLink: 'https://www.airporttransfer.amsterdam/',
   },
   {
-    title: 'Modern Portfolio with 3D Animations',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    description: 'Designed and developed a modern portfolio website featuring smooth animations, 3D effects powered by Three.js, and a sleek user interface. Leveraged Tailwind CSS for responsive design, React for dynamic interactivity, and Zustand for state management. The site incorporates Framer Motion for fluid transitions.',
-    technologies: ['React', 'Three.js', 'Tailwind CSS', 'Framer Motion', 'Zustand', 'HTML', 'CSS'],
+    title: 'Shiksha School ERP',
+    image: 'https://clouddevopslabs.in/assets/p2.png',
+    description: 'Shiksha School ERP provides an integrated platform for managing students, staff, attendance, fees, examinations, admissions, library, human resources, and financial records. It enables schools to reduce manual paperwork, improve operational efficiency, and maintain accurate records through a centralized dashboard.',
+    technologies: ['CodeIgniter', 'MySQL', 'JavaScript', 'HTML5/Css'],
     category: 'fullstack',
-    githubLink: 'https://github.com/Anit-jha88/Neeraj_Portfolio',
-    websiteLink: 'https://neerajnakka.onrender.com/',
+    githubLink: 'https://github.com/Anit-jha88/shikshaschoolerp',
+    websiteLink: 'https://shikshaschoolerp.co.in/erpdemo/',
   },
-  {
-    title: 'Portfolio Website',
-    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    description: 'Dynamic React portfolio showcasing projects with Tailwind CSS design and Framer Motion animations.',
-    technologies: ['Tailwind CSS', 'React.js', 'React Router Dom', 'Framer Motion'],
+
+   {
+    title: 'Multi Vendor Ecommerce Site',
+    image: 'https://clouddevopslabs.in/assets/p4.png',
+    description: 'Developed a scalable Multi-Vendor eCommerce Platform using React.js, Laravel, and MySQL, enabling multiple sellers to manage products, orders, commissions, and inventory from dedicated vendor dashboards.',
+    technologies: ['Laravel/Mysql', 'Strip', 'Docker','AWS'],
     category: 'fullstack',
-    githubLink: 'https://github.com/Anit-jha88/PortFolio_React/tree/master',
-    websiteLink: 'https://neerajchandra.onrender.com/',
+    githubLink: 'https://github.com/Anit-jha88/laravel-multivender',
+    websiteLink: 'https://clouddevopslabs.in/shopx/public',
   },
+
 ];
 
 export const CONTACT = {
@@ -123,7 +169,7 @@ export const CONTACT = {
   email: 'jhaanit.php@gmail.com',
   social: {
     github: 'https://github.com/Anit-jha88',
-    linkedin: 'https://linkedin.com/in/anit-jha-06886280',
+    linkedin: 'https://linkedin.com/in/anit-jha',
     twitter: 'https://twitter.com/anitjha',
   }
 };
