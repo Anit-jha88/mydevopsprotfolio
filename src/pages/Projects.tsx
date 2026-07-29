@@ -195,6 +195,10 @@ export const Projects = () => {
                   <span>Total Projects:</span>
                   <span className="text-primary-500">{PROJECTS_BY_CATEGORY.all.length}</span>
                 </div>
+                 <div className="flex justify-between">
+                  <span>AWS Projects:</span>
+                  <span className="text-primary-500">{PROJECTS_BY_CATEGORY.aws.length}</span>
+                </div>
                 <div className="flex justify-between">
                   <span>DevOps Projects:</span>
                   <span className="text-primary-500">{PROJECTS_BY_CATEGORY.devops.length}</span>

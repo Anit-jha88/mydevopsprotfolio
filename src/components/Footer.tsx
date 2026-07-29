@@ -64,7 +64,7 @@ export const Footer = () => {
             </div>
             <div className="mt-2 space-y-1 text-xs">
               <p>© {currentYear} DevOps & Cloud Engineer</p>
-              <p>Built with React, TypeScript, and Cyber Terminal Aesthetic</p>
+              <p>Turning Code into Reliable Cloud Solutions.</p>
               <p className="text-primary-500">Status: Available for opportunities</p>
             </div>
           </div>
