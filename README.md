@@ -1,4 +1,4 @@
-# 🖥️ DevOps Portfolio Template — Cyber Terminal Aesthetic 
+# 🖥️ DevOps Portfolio Template — Cyber Terminal Aesthetic  
 
 > A free, open-source DevOps portfolio website template for Cloud Engineers, SREs, and DevOps professionals.  
 > Built with **React + TypeScript**, featuring a cyber terminal design, interactive blog, case studies, and CI/CD-ready deployment on Vercel. 
