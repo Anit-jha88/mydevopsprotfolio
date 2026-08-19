@@ -5,7 +5,7 @@ export const ABOUT_TEXT = "I design, automate, and deploy systems that turn code
 export const SKILLS = [
   // Cloud
   { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloud', level: 90 },
-  { name: 'Azore', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg', category: 'cloud', level: 90 },
+  { name: 'Azure', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg', category: 'cloud', level: 90 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 90 },
@@ -15,13 +15,16 @@ export const SKILLS = [
   { name: 'Terraform', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg', category: 'infrastructure', level: 90 },
   { name: 'Ansible', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original-wordmark.svg', category: 'infrastructure', level: 90 },
   { name: 'AWS CloudFormation', icon: 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/awscloudformation.svg', category: 'infrastructure', level: 90 },
+  { name: 'OpenTofu', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opentofu/opentofu-original.svg', category: 'infrastructure', level: 90 },
+  { name: 'Prometheus', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/prometheus.svg', category: 'infrastructure', level: 90 },
+  { name: 'Grafana', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/grafana.svg', category: 'infrastructure', level: 90 },
 
   // DevOps / Automation
   { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg', category: 'devops', level: 90 },
   { name: 'Jenkins', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-plain.svg', category: 'devops', level: 90 },
   { name: 'GitHub Actions', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg', category: 'devops', level: 90 },
-  { name: 'GitLab CI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg', category: 'devops', level: 90 },
-  { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', category: 'devops', level: 90 },
+  { name: 'GitOps', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', category: 'devops', level: 90 },
+  { name: 'Argo CD', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/argo.svg', category: 'devops', level: 90 },
   { name: 'AWS CodePipeline', icon: 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/awscodepipeline.svg', category: 'devops', level: 90 },
   { name: 'AWS CodeBuild', icon: 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/awscodebuild.svg', category: 'devops', level: 90 },
   { name: 'Bash Scripting', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg', category: 'devops', level: 90 },
@@ -40,6 +43,9 @@ export const SKILLS = [
   { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', category: 'database', level: 90 },
   { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', category: 'database', level: 90 },
   { name: 'Oracle SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg', category: 'database', level: 90 },
+  { name: 'SQLite', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg', category: 'database', level: 90 },
+
+
 ];
 
 export const PROJECTS = [
@@ -55,12 +61,12 @@ export const PROJECTS = [
   },
 
    {
-    title: 'Amazon Clone — EKS & ArgoCD Deployment',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    description: 'Deployed a production-grade Amazon Clone on AWS EKS with full GitOps automation via ArgoCD. Integrated CI/CD pipelines using GitHub Actions, containerized microservices with Docker, and managed configuration using Kustomize for seamless auto-sync deployments.',
-    technologies: ['AWS EKS', 'Kubernetes', 'ArgoCD', 'GitHub Actions', 'Kustomize', 'Docker', 'Terraform'],
+    title: 'Node.js CI/CD with GitHub Actions & AWS EC2',
+    image: 'https://clouddevopslabs.in/assets/p10.png',
+    description: 'A containerized Node.js application deployed on AWS EC2 using an automated GitHub Actions CI/CD pipeline. The pipeline securely connects to EC2 through SSH and uses Docker Compose to build, deploy, and manage the Node.js application automatically whenever code is pushed to the main branch.',
+    technologies: ['AWS EC2', 'GitHub Actions', 'Docker', 'SSH', 'Kustomize', 'Docker', 'Terraform'],
     category: 'devops',
-    githubLink: 'https://github.com/Anit-jha88/amazon-clone-k8s-eks-argoCD',
+    githubLink: 'https://github.com/Anit-jha88/nodeapp-deploy-githubaction',
     websiteLink: '',
   },
   {

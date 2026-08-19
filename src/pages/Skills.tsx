@@ -27,7 +27,7 @@ export const Skills = () => {
     },
     {
       id: 'infrastructure',
-      title: 'Infrastructure as Code',
+      title: 'Infrastructure as Code & Monitoring',
       icon: TerminalIcon,
       skills: SKILLS_BY_CATEGORY.infrastructure,
       color: 'text-purple-500',
