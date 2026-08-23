@@ -28,7 +28,7 @@ export const Navbar = () => {
             <Link to="/" className="flex items-center space-x-2 group">
               <div className="text-primary-500 font-mono font-bold text-xl tracking-wide">
                <img
-                  src="https://clouddevopslabs.in/assets/logo.png"
+                  src="/images/logo.png"
                   alt="CloudDevOpsLabs"
                   className="h-14 w-58 object-contain"
                 />

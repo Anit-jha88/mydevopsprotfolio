@@ -52,7 +52,7 @@ export const PROJECTS = [
  
    {
     title: 'AI Inventory Tracker on AWS',
-    image: 'https://clouddevopslabs.in/assets/p9.png',
+    image: '/images/p9.png',
     description: 'Deployed an AI Inventory Tracker on AWS using Amazon SageMaker, AWS Lambda, DynamoDB, API Gateway, and SNS to automate inventory monitoring, AI-based demand forecasting, intelligent stock recommendations, and real-time alerts.',
     technologies: ['API Gateway', 'SageMaker', 'DynamoDB', 'AWS Lambda'],
     category: 'aws',
@@ -62,7 +62,7 @@ export const PROJECTS = [
 
    {
     title: 'Node.js CI/CD with GitHub Actions & AWS EC2',
-    image: 'https://clouddevopslabs.in/assets/p10.png',
+    image: '/images/p10.jpg',
     description: 'A containerized Node.js application deployed on AWS EC2 using an automated GitHub Actions CI/CD pipeline. The pipeline securely connects to EC2 through SSH and uses Docker Compose to build, deploy, and manage the Node.js application automatically whenever code is pushed to the main branch.',
     technologies: ['AWS EC2', 'GitHub Actions', 'Docker', 'SSH', 'Kustomize', 'Docker', 'Terraform'],
     category: 'devops',
@@ -71,7 +71,7 @@ export const PROJECTS = [
   },
   {
     title: 'Portfolio Website',
-    image: 'https://clouddevopslabs.in/assets/p3.png',
+    image: '/images/p3.png',
     description: 'Developed a modern and responsive portfolio website using React.js, Tailwind CSS, and Framer Motion. Showcases projects, skills, and case studies with smooth animations, interactive UI components, and optimized performance across all devices.',
     technologies: ['Tailwind CSS', 'React.js', 'React Router Dom', 'Framer Motion'],
     category: 'fullstack',
@@ -80,7 +80,7 @@ export const PROJECTS = [
   },
     {
     title: 'The Cloud Cost Caluclator',
-    image: 'https://clouddevopslabs.in/assets/p7.png',
+    image: '/images/p7.png',
     description: 'Designed and implemented an AWS Cloud Cost Tracking & Alert System using AWS Lambda, Cost Explorer API, EventBridge, DynamoDB, SNS, and CloudWatch. Automated daily cost collection, generated budget alerts through email notifications, provided service-wise cost analytics, and built a dashboard for monitoring monthly AWS spending.',
     technologies: ['AWS EKS', 'CloudWatch', 'EventBridge', 'AWS Lambda'],
     category: 'aws',
@@ -89,7 +89,7 @@ export const PROJECTS = [
   },
    {
     title: 'Automatic Backup System',
-    image: 'https://clouddevopslabs.in/assets/p5.png',
+    image: '/images/p5.png',
     description: 'Automatic Backup System on AWS to securely back up EC2 instances, EBS volumes, and RDS databases using AWS Backup, Monitored backup jobs with Amazon CloudWatch and configured SNS notifications for backup.',
     technologies: ['AWS EKS', 'CloudWatch', 'EC2', 'AWS Lambda'],
     category: 'aws',
@@ -98,7 +98,7 @@ export const PROJECTS = [
   },
   {
     title: 'WebApp Uptime Monitor',
-    image: 'https://clouddevopslabs.in/assets/p6.png',
+    image: '/images/p6.png',
     description: 'Designed and deployed an AWS-based WebApp Uptime Monitoring solution using CloudWatch, Route 53, SNS, and Lambda to provide 24/7 availability monitoring, real-time alerts, and performance tracking for web applications.',
     technologies: ['AWS Route 53', 'CloudWatch', 'EC2', 'IAM'],
     category: 'aws',
@@ -107,7 +107,7 @@ export const PROJECTS = [
   },
   {
     title: 'Customer Inquiries Manager on AWS',
-    image: 'https://clouddevopslabs.in/assets/p8.png',
+    image: '/images/p8.png',
     description: 'Implemented a serverless Customer Inquiries Manager on AWS using API Gateway, Lambda, DynamoDB, S3, SNS, and Cognito to automate customer inquiry processing, real-time notifications, secure data management, and operational monitoring.',
     technologies: ['Cognito', 'DynamoDB', 'S3', 'AWS Lambda'],
     category: 'aws',
@@ -140,7 +140,7 @@ export const PROJECTS = [
   },
   {
     title: 'Airport Transfer Amsterdam',
-    image: 'https://clouddevopslabs.in/assets/p1.png',
+    image: '/images/p1.png',
     description: 'Developed  a taxi booking platform using Google Maps API, enabling users to search pickup and drop-off locations, calculate real-time distances, estimate fares dynamically, and complete online taxi reservations. Utilized PHP, WordPress, JavaScript, and MySQL to build and maintain the application.',
     technologies: ['Wordpress', 'Mysql', 'google Map','javascript'],
     category: 'fullstack',
@@ -149,7 +149,7 @@ export const PROJECTS = [
   },
   {
     title: 'Shiksha School ERP',
-    image: 'https://clouddevopslabs.in/assets/p2.png',
+    image: '/images/p2.png',
     description: 'Shiksha School ERP provides an integrated platform for managing students, staff, attendance, fees, examinations, admissions, library, human resources, and financial records. It enables schools to reduce manual paperwork, improve operational efficiency, and maintain accurate records through a centralized dashboard.',
     technologies: ['CodeIgniter', 'MySQL', 'JavaScript', 'HTML5/Css'],
     category: 'fullstack',
@@ -159,7 +159,7 @@ export const PROJECTS = [
 
    {
     title: 'Multi Vendor Ecommerce Site',
-    image: 'https://clouddevopslabs.in/assets/p4.png',
+    image: '/images/p4.png',
     description: 'Developed a scalable Multi-Vendor eCommerce Platform using React.js, Laravel, and MySQL, enabling multiple sellers to manage products, orders, commissions, and inventory from dedicated vendor dashboards.',
     technologies: ['Laravel/Mysql', 'Strip', 'Docker','AWS'],
     category: 'fullstack',
